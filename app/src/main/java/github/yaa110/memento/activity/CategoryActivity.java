@@ -27,7 +27,7 @@ public class CategoryActivity extends AppCompatActivity implements RecyclerFragm
 		setContentView(R.layout.activity_category);
 
 
-		//setting tool bar details
+
 		toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
@@ -72,6 +72,8 @@ public class CategoryActivity extends AppCompatActivity implements RecyclerFragm
 	public void toggleOneSelection(boolean state) {
 	}
 
+
+	//handling custom back button functionality
 	@Override
 	public void onBackPressed() {
 		if (fragment.isFabOpen) {
