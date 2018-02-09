@@ -26,6 +26,8 @@ public class CategoryActivity extends AppCompatActivity implements RecyclerFragm
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_category);
 
+
+		//setting tool bar
 		toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 
