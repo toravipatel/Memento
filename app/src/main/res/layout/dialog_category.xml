@@ -53,7 +53,8 @@
         android:scaleType="center"
         app:layout_constraintEnd_toStartOf="@+id/theme_pink"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="10dp" />
 
     <ImageView
         android:id="@+id/theme_pink"
@@ -80,7 +81,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/theme_pink"
         app:layout_constraintStart_toEndOf="@+id/theme_pink"
         app:layout_constraintTop_toTopOf="@+id/theme_pink"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="10dp" />
 
     <ImageView
         android:id="@+id/theme_cyan"
@@ -103,7 +105,8 @@
         android:scaleType="center"
         android:background="@drawable/circle_blue"
         app:layout_constraintEnd_toStartOf="@+id/theme_cyan"
-        app:layout_constraintTop_toBottomOf="@+id/theme_red" />
+        app:layout_constraintTop_toBottomOf="@+id/theme_red"
+        android:layout_marginRight="10dp" />
 
     <ImageView
         android:id="@+id/theme_teal"
@@ -116,7 +119,8 @@
         app:layout_constraintStart_toEndOf="@+id/theme_cyan"
         app:layout_constraintTop_toTopOf="@+id/theme_cyan"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="10dp" />
 
     <ImageView
         android:id="@+id/theme_amber"
@@ -141,7 +145,8 @@
         android:background="@drawable/circle_green"
         app:layout_constraintEnd_toStartOf="@+id/theme_amber"
         app:layout_constraintTop_toBottomOf="@+id/theme_blue"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="10dp" />
 
     <ImageView
         android:id="@+id/theme_orange"
@@ -153,7 +158,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/theme_amber"
         app:layout_constraintStart_toEndOf="@+id/theme_amber"
         app:layout_constraintTop_toTopOf="@+id/theme_amber"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginLeft="10dp" />
 
 
 </android.support.constraint.ConstraintLayout>
