@@ -192,6 +192,14 @@ public class MainFragment extends RecyclerFragment<Category, CategoryAdapter> {
 		});
 
 		//noinspection ConstantConditions
+		view.findViewById(R.id.theme_pink).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setCategoryDialogTheme(view, Category.THEME_PINK);
+			}
+		});
+
+		//noinspection ConstantConditions
 		view.findViewById(R.id.theme_cyan).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -251,6 +259,8 @@ public class MainFragment extends RecyclerFragment<Category, CategoryAdapter> {
 				return (ImageView) view.findViewById(R.id.theme_red);
 			case Category.THEME_TEAL:
 				return (ImageView) view.findViewById(R.id.theme_teal);
+			case Category.THEME_GREEN:
+				return (ImageView) view.findViewById(R.id.theme_green);
 			default:
 				return (ImageView) view.findViewById(R.id.theme_green);
 		}
